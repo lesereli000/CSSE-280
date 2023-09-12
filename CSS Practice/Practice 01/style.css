@@ -1,0 +1,36 @@
+.bluebox {
+    background-color:blue;
+    height:100px;
+    width:100px;
+    padding: 10px;
+    border: 10px ridge;
+    border-width: 10px;
+    border-color: black green orange yellow;
+    border-radius: 80px;
+    margin: 10px;
+}   
+.greenbox {
+    background: rgba(0, 128, 0, 0.3);
+    padding: 40px 70px;
+    margin: 10px;
+    background-image: url(images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-origin: content-box; */
+    outline-style: double;
+    outline-width: thick;
+    outline-color: red;
+}
+.yellowbox {
+   background-color:rgb(220, 200, 0);
+   padding: 10px 20px 10px 30px;
+    margin: 10px;
+}
+.great{
+    font-size: 300%;
+}
+p{
+    margin: 0px;
+    background-color: DarkRed;
+    color: WhiteSmoke;
+}
