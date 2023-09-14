@@ -1,0 +1,26 @@
+body{
+    background: #ffffff;
+}
+
+.page-container{
+    margin-top: 75px;
+}
+
+.btn-grp{
+    padding: 5vw;
+    text-align: center;
+    border: grey solid 2px;
+}
+
+.btn-grp > button{
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+}
+
+#ctrText{
+    color: black;
+    font-family: consolas, arial, sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
