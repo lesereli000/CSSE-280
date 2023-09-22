@@ -1,0 +1,66 @@
+#cntrBtnGrp button{
+    background-color: #800000;
+    color: white;
+    margin: 0px 15px;
+}
+
+.navbar{
+    background-color: #800000;
+    color: white;
+    padding-left: 1.5em;
+}
+
+.btn-grp{
+   text-align: center; 
+}
+
+#counter{
+    text-align: center;
+    margin: 5px;
+    font-size: 300%;
+}
+
+#colorPickerContainer > .col{
+    padding: 2px;
+}
+
+#colorArea{
+    background-color: #800000;
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    display: grid;
+    place-items: center;
+    border-radius: 5%;
+}
+
+#clrBlue{
+    background-color: blue;
+    color: white;
+}
+
+#clrGreen{
+    background-color: green;
+    color: white;
+}
+
+#clrRed{
+    background-color: red;
+    color: white;
+}
+
+#clrPurple{
+    background-color: purple;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    #cntrBtnGrp button{
+        width: 22vw;
+    }
+
+    #clrBtnGrp button{
+        width: 16vw;
+    }
+}
