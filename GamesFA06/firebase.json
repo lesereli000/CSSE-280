@@ -1,0 +1,21 @@
+{
+  "hosting": [
+    {
+      "target": "01",
+      "public": "TicTacToe1/public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }, {
+      "target": "02",
+      "public": "TicTacToe2/public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}

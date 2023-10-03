@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "leserej-games"
+  },
+  "targets": {
+    "leserej-games": {
+      "hosting": {
+        "01": [
+          "leserej-games"
+        ],
+        "02": [
+          "leserej-tictactoe2"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
