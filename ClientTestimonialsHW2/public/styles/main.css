@@ -1,0 +1,40 @@
+body {
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    height:60px;
+    font-size: x-large;
+}
+
+.page-container {
+    display: grid;
+    place-content: center;
+    background: linear-gradient(white -5%,black 120%);
+    height: 97vh;
+}
+
+.card{
+    padding: 0;
+    max-width: 300px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.card-btn {
+    text-align: center;
+    width: 100%;
+}
