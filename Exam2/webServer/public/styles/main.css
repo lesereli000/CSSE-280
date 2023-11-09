@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #3a0080;
+    color: aliceblue;
+    padding-left: 20px;
+}
+
+.container-fluid{
+    display: grid;
+    place-content: center;
+    padding-top: 30vh;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+}
+
+.btn{
+    background-color: #3a0080;
+    color: aliceblue;
+    margin: auto 10px;
+    border: 2px solid black;
+    width: 50%
+}
+
+.btn:hover{
+    border: 2px solid black;
+}
+
+.buttun-group{
+    display: flex;
+    place-content: center;
+}
+
+#displayArea{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
