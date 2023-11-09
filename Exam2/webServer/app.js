@@ -11,7 +11,6 @@ app.listen(port, () => {
 });
 
 app.get("/api/getmonths", (request, response) => {
-    console.log("get");
     fs.readFile(json, 'utf8', (err, data) => {
         if (err){
             console.log(err);
